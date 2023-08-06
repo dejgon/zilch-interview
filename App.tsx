@@ -41,7 +41,10 @@ export function App() {
         paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
       }}
       onLayout={onLayoutRootView}>
-      <ConfigCatProvider sdkKey="googlesdkkey" options={{ logger }}>
+      <ConfigCatProvider
+        // This SDK key obviously should be kept within .env file and never pushed into the repo, but for the assignment/interview purposes I left it in here, so it doesn't throw errors
+        sdkKey="dCjbCD4gFkGP9cUgE3R9Jw/jqKq_APPek6BdQQxchYEuA"
+        options={{ logger }}>
         <Provider store={store}>
           <Routing />
         </Provider>
