@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input.tsx should render basic snapshot 1`] = `
+<View
+  style={
+    {
+      "paddingBottom": 16,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#313131",
+        "fontFamily": "Oswald-Regular",
+        "fontSize": 14,
+        "fontStyle": "normal",
+        "fontWeight": "400",
+        "lineHeight": 21,
+        "paddingBottom": 4,
+        "paddingLeft": 4,
+      }
+    }
+  >
+    Email address
+  </Text>
+  <TextInput
+    autoCapitalize="none"
+    autoCorrect={false}
+    editable={true}
+    keyboardType="email-address"
+    placeholder="Enter your email address"
+    style={
+      {
+        "borderColor": "#313131",
+        "borderRadius": 10,
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "color": "#313131",
+        "fontFamily": "Oswald-Regular",
+        "fontSize": 16,
+        "fontStyle": "normal",
+        "fontWeight": "400",
+        "height": 48,
+        "lineHeight": 24,
+        "paddingLeft": 8,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Input.tsx should render disabled 1`] = `
+<View
+  style={
+    {
+      "paddingBottom": 16,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#313131",
+        "fontFamily": "Oswald-Regular",
+        "fontSize": 14,
+        "fontStyle": "normal",
+        "fontWeight": "400",
+        "lineHeight": 21,
+        "paddingBottom": 4,
+        "paddingLeft": 4,
+      }
+    }
+  >
+    Email address
+  </Text>
+  <TextInput
+    autoCapitalize="none"
+    autoCorrect={false}
+    editable={false}
+    keyboardType="email-address"
+    placeholder="Enter your email address"
+    style={
+      {
+        "borderColor": "#808080",
+        "borderRadius": 10,
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "color": "#808080",
+        "fontFamily": "Oswald-Regular",
+        "fontSize": 16,
+        "fontStyle": "normal",
+        "fontWeight": "400",
+        "height": 48,
+        "lineHeight": 24,
+        "paddingLeft": 8,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;

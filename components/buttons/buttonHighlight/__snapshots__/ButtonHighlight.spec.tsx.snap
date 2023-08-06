@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonHighlight.tsx renders contained 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#007FFF",
+      "borderRadius": 10,
+      "borderWidth": 0,
+      "color": "#FFFFFF",
+      "display": "flex",
+      "flexDirection": "row",
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 326,
+    }
+  }
+  testID="button-highlight"
+>
+  <Text
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "Oswald-Regular",
+        "fontSize": 24,
+        "fontStyle": "normal",
+        "fontWeight": "400",
+        "lineHeight": 36,
+      }
+    }
+  >
+    Contained button
+  </Text>
+</View>
+`;
+
+exports[`ButtonHighlight.tsx renders outlined 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "borderColor": "#007FFF",
+      "borderRadius": 10,
+      "borderStyle": "solid",
+      "borderWidth": 2,
+      "color": "#007FFF",
+      "display": "flex",
+      "flexDirection": "row",
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 326,
+    }
+  }
+  testID="button-highlight"
+>
+  <Text
+    style={
+      {
+        "color": "#007FFF",
+        "fontFamily": "Oswald-Regular",
+        "fontSize": 24,
+        "fontStyle": "normal",
+        "fontWeight": "400",
+        "lineHeight": 36,
+      }
+    }
+  >
+    Outlined button
+  </Text>
+</View>
+`;
+
+exports[`ButtonHighlight.tsx should render basic snapshot 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#007FFF",
+      "borderRadius": 10,
+      "borderWidth": 0,
+      "color": "#FFFFFF",
+      "display": "flex",
+      "flexDirection": "row",
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 326,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "Oswald-Regular",
+        "fontSize": 24,
+        "fontStyle": "normal",
+        "fontWeight": "400",
+        "lineHeight": 36,
+      }
+    }
+  >
+    Contained button
+  </Text>
+</View>
+`;

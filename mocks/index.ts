@@ -1,0 +1,1 @@
+export { swapiResponse } from './swapiResponse';

@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwapiHome.tsx renders properly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      forwardedRef={[Function]}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="Swapi"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "flex": 1,
+                "padding": 32,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#00D287",
+                  "fontFamily": "Oswald-Regular",
+                  "fontSize": 64,
+                  "fontStyle": "normal",
+                  "fontWeight": "400",
+                  "lineHeight": 95,
+                  "padding": 0,
+                }
+              }
+            >
+              Zilch
+            </Text>
+            <Text
+              style={
+                {
+                  "fontFamily": "Oswald-Regular",
+                  "fontSize": 24,
+                  "fontStyle": "normal",
+                  "fontWeight": "400",
+                  "lineHeight": 36,
+                }
+              }
+            >
+              Assignment App
+            </Text>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "gap": 15,
+                  "marginTop": 30,
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "fontFamily": "Oswald-Regular",
+                    "fontSize": 16,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "lineHeight": 27,
+                    "marginBottom": 10,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Find your favourite Star Wars character
+              </Text>
+              <View
+                style={
+                  [
+                    {
+                      "paddingBottom": 16,
+                      "width": "100%",
+                    },
+                    undefined,
+                  ]
+                }
+                testID="input-view-container"
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#313131",
+                      "fontFamily": "Oswald-Regular",
+                      "fontSize": 14,
+                      "fontStyle": "normal",
+                      "fontWeight": "400",
+                      "lineHeight": 21,
+                      "paddingBottom": 4,
+                      "paddingLeft": 4,
+                    }
+                  }
+                  testID="input-label"
+                >
+                  Search for the character
+                </Text>
+                <TextInput
+                  editable={true}
+                  onChangeText={[Function]}
+                  style={
+                    {
+                      "borderColor": "#313131",
+                      "borderRadius": 10,
+                      "borderStyle": "solid",
+                      "borderWidth": 1,
+                      "color": "#313131",
+                      "fontFamily": "Oswald-Regular",
+                      "fontSize": 16,
+                      "fontStyle": "normal",
+                      "fontWeight": "400",
+                      "height": 48,
+                      "lineHeight": 24,
+                      "paddingLeft": 8,
+                      "width": "100%",
+                    }
+                  }
+                  testID="input-text-area"
+                  value=""
+                />
+              </View>
+              <Text
+                style={
+                  {
+                    "fontFamily": "Oswald-Light",
+                    "fontSize": 16,
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "lineHeight": 27,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                No results, try something else 🔎
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;
