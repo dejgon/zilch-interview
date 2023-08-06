@@ -16,14 +16,14 @@ const styles = StyleSheet.create({
   },
   outlined: {
     backgroundColor: 'transparent',
-    borderColor: Colors.Blue.BLUE_500,
+    borderColor: Colors.Green.GREEN_500,
     borderWidth: 2,
     borderStyle: 'solid',
-    color: Colors.Blue.BLUE_500,
+    color: Colors.Green.GREEN_500,
   },
   contained: {
     color: Colors.Fonts.WHITE,
-    backgroundColor: Colors.Blue.BLUE_500,
+    backgroundColor: Colors.Green.GREEN_500,
   },
   buttonText: {
     fontFamily: Fonts.OswaldRegular,

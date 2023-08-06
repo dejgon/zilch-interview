@@ -5,7 +5,7 @@ import { Colors } from '../../consts';
 const styles = StyleSheet.create({
   forgotPassBox: { paddingTop: 16, alignSelf: 'flex-end' },
   forgotPassText: {
-    color: Colors.Blue.BLUE_400,
+    color: Colors.Green.GREEN_400,
     fontFamily: 'Oswald-Regular',
     fontSize: 18,
     fontStyle: 'normal',

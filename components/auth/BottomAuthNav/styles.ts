@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   },
   subText: {
     alignItems: 'center',
-    color: Colors.Blue.BLUE_400,
+    color: Colors.Green.GREEN_500,
     display: 'flex',
     fontFamily: Fonts.OswaldRegular,
     fontSize: 18,

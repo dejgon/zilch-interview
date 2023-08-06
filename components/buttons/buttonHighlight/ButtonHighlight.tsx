@@ -23,7 +23,7 @@ export function ButtonHighlight(props: Props) {
 
   const getTextColorBasedOnType = () => {
     return type === ButtonType.Outlined
-      ? Colors.Blue.BLUE_500
+      ? Colors.Green.GREEN_500
       : Colors.Fonts.WHITE;
   };
 
